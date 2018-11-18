@@ -8,12 +8,29 @@ html {
   background-size: cover;
 }
 
+main {
+  padding-top: 35px;
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;  
 }
 
+.nav-link {
+  margin-left: 7px;
+}
+
 .u-full-height {
   height: 100vh;
+}
+
+#navbar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background: black;
+  color: white;
+  opacity: .65;
 }
